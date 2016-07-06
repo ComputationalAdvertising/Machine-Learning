@@ -1,0 +1,545 @@
+[warn] Multiple dependencies with the same organization/name but different versions. To avoid conflict, pick one version:
+[warn]  * org.slf4j:slf4j-api:(1.6.4, 1.7.10, 1.7.7)
+[debug] :: resolving dependencies :: default#softcrossdevicealgo$sources_javadoc_2.11;1.0
+[debug] 	confs: [compile, runtime, test, provided, optional, compile-internal, runtime-internal, test-internal, plugin, sources, docs, pom, scala-tool]
+[debug] 	validate = true
+[debug] 	refresh = false
+[debug] resolving dependencies for configuration 'compile'
+[debug] == resolving dependencies for default#softcrossdevicealgo$sources_javadoc_2.11;1.0 [compile]
+[debug] == resolving dependencies default#softcrossdevicealgo$sources_javadoc_2.11;1.0->com.github.scopt#scopt_2.10;3.3.0 [compile->default(compile)]
+[info] Resolving com.github.scopt#scopt_2.10;3.3.0 ...
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@58b62e6e
+[debug] sbt-chain: module revision found in cache: com.github.scopt#scopt_2.10;3.3.0
+[debug] 	found com.github.scopt#scopt_2.10;3.3.0 in sbt-chain
+[debug] == resolving dependencies default#softcrossdevicealgo$sources_javadoc_2.11;1.0->com.github.scopt#scopt_2.10;3.3.0 [compile->runtime]
+[debug] == resolving dependencies default#softcrossdevicealgo$sources_javadoc_2.11;1.0->com.github.scopt#scopt_2.10;3.3.0 [compile->compile]
+[debug] == resolving dependencies default#softcrossdevicealgo$sources_javadoc_2.11;1.0->com.github.scopt#scopt_2.10;3.3.0 [compile->master]
+[debug] == resolving dependencies default#softcrossdevicealgo$sources_javadoc_2.11;1.0->com.alibaba#fastjson;1.2.6 [compile->default(compile)]
+[info] Resolving com.alibaba#fastjson;1.2.6 ...
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@7cf5ae82
+[debug] sbt-chain: module revision found in cache: com.alibaba#fastjson;1.2.6
+[debug] 	found com.alibaba#fastjson;1.2.6 in sbt-chain
+[debug] == resolving dependencies default#softcrossdevicealgo$sources_javadoc_2.11;1.0->com.alibaba#fastjson;1.2.6 [compile->runtime]
+[debug] == resolving dependencies default#softcrossdevicealgo$sources_javadoc_2.11;1.0->com.alibaba#fastjson;1.2.6 [compile->compile]
+[debug] == resolving dependencies default#softcrossdevicealgo$sources_javadoc_2.11;1.0->com.alibaba#fastjson;1.2.6 [compile->master]
+[debug] resolving dependencies for configuration 'runtime'
+[debug] == resolving dependencies for default#softcrossdevicealgo$sources_javadoc_2.11;1.0 [runtime]
+[debug] == resolving dependencies for default#softcrossdevicealgo$sources_javadoc_2.11;1.0 [compile]
+[debug] == resolving dependencies default#softcrossdevicealgo$sources_javadoc_2.11;1.0->com.github.scopt#scopt_2.10;3.3.0 [compile->default(compile)]
+[debug] == resolving dependencies default#softcrossdevicealgo$sources_javadoc_2.11;1.0->com.github.scopt#scopt_2.10;3.3.0 [compile->runtime]
+[debug] == resolving dependencies default#softcrossdevicealgo$sources_javadoc_2.11;1.0->com.github.scopt#scopt_2.10;3.3.0 [compile->compile]
+[debug] == resolving dependencies default#softcrossdevicealgo$sources_javadoc_2.11;1.0->com.github.scopt#scopt_2.10;3.3.0 [compile->master]
+[debug] == resolving dependencies default#softcrossdevicealgo$sources_javadoc_2.11;1.0->com.alibaba#fastjson;1.2.6 [compile->default(compile)]
+[debug] == resolving dependencies default#softcrossdevicealgo$sources_javadoc_2.11;1.0->com.alibaba#fastjson;1.2.6 [compile->runtime]
+[debug] == resolving dependencies default#softcrossdevicealgo$sources_javadoc_2.11;1.0->com.alibaba#fastjson;1.2.6 [compile->compile]
+[debug] == resolving dependencies default#softcrossdevicealgo$sources_javadoc_2.11;1.0->com.alibaba#fastjson;1.2.6 [compile->master]
+[debug] == resolving dependencies default#softcrossdevicealgo$sources_javadoc_2.11;1.0->com.github.scopt#scopt_2.10;3.3.0 [runtime->default(compile)]
+[debug] == resolving dependencies default#softcrossdevicealgo$sources_javadoc_2.11;1.0->com.github.scopt#scopt_2.10;3.3.0 [runtime->runtime]
+[debug] == resolving dependencies default#softcrossdevicealgo$sources_javadoc_2.11;1.0->com.github.scopt#scopt_2.10;3.3.0 [runtime->compile]
+[debug] == resolving dependencies default#softcrossdevicealgo$sources_javadoc_2.11;1.0->com.github.scopt#scopt_2.10;3.3.0 [runtime->master]
+[debug] == resolving dependencies default#softcrossdevicealgo$sources_javadoc_2.11;1.0->com.alibaba#fastjson;1.2.6 [runtime->default(compile)]
+[debug] == resolving dependencies default#softcrossdevicealgo$sources_javadoc_2.11;1.0->com.alibaba#fastjson;1.2.6 [runtime->runtime]
+[debug] == resolving dependencies default#softcrossdevicealgo$sources_javadoc_2.11;1.0->com.alibaba#fastjson;1.2.6 [runtime->compile]
+[debug] == resolving dependencies default#softcrossdevicealgo$sources_javadoc_2.11;1.0->com.alibaba#fastjson;1.2.6 [runtime->master]
+[debug] resolving dependencies for configuration 'test'
+[debug] == resolving dependencies for default#softcrossdevicealgo$sources_javadoc_2.11;1.0 [test]
+[debug] == resolving dependencies for default#softcrossdevicealgo$sources_javadoc_2.11;1.0 [runtime]
+[debug] == resolving dependencies for default#softcrossdevicealgo$sources_javadoc_2.11;1.0 [compile]
+[debug] == resolving dependencies default#softcrossdevicealgo$sources_javadoc_2.11;1.0->com.github.scopt#scopt_2.10;3.3.0 [compile->default(compile)]
+[debug] == resolving dependencies default#softcrossdevicealgo$sources_javadoc_2.11;1.0->com.github.scopt#scopt_2.10;3.3.0 [compile->runtime]
+[debug] == resolving dependencies default#softcrossdevicealgo$sources_javadoc_2.11;1.0->com.github.scopt#scopt_2.10;3.3.0 [compile->compile]
+[debug] == resolving dependencies default#softcrossdevicealgo$sources_javadoc_2.11;1.0->com.github.scopt#scopt_2.10;3.3.0 [compile->master]
+[debug] == resolving dependencies default#softcrossdevicealgo$sources_javadoc_2.11;1.0->com.alibaba#fastjson;1.2.6 [compile->default(compile)]
+[debug] == resolving dependencies default#softcrossdevicealgo$sources_javadoc_2.11;1.0->com.alibaba#fastjson;1.2.6 [compile->runtime]
+[debug] == resolving dependencies default#softcrossdevicealgo$sources_javadoc_2.11;1.0->com.alibaba#fastjson;1.2.6 [compile->compile]
+[debug] == resolving dependencies default#softcrossdevicealgo$sources_javadoc_2.11;1.0->com.alibaba#fastjson;1.2.6 [compile->master]
+[debug] == resolving dependencies default#softcrossdevicealgo$sources_javadoc_2.11;1.0->com.github.scopt#scopt_2.10;3.3.0 [runtime->default(compile)]
+[debug] == resolving dependencies default#softcrossdevicealgo$sources_javadoc_2.11;1.0->com.github.scopt#scopt_2.10;3.3.0 [runtime->runtime]
+[debug] == resolving dependencies default#softcrossdevicealgo$sources_javadoc_2.11;1.0->com.github.scopt#scopt_2.10;3.3.0 [runtime->compile]
+[debug] == resolving dependencies default#softcrossdevicealgo$sources_javadoc_2.11;1.0->com.github.scopt#scopt_2.10;3.3.0 [runtime->master]
+[debug] == resolving dependencies default#softcrossdevicealgo$sources_javadoc_2.11;1.0->com.alibaba#fastjson;1.2.6 [runtime->default(compile)]
+[debug] == resolving dependencies default#softcrossdevicealgo$sources_javadoc_2.11;1.0->com.alibaba#fastjson;1.2.6 [runtime->runtime]
+[debug] == resolving dependencies default#softcrossdevicealgo$sources_javadoc_2.11;1.0->com.alibaba#fastjson;1.2.6 [runtime->compile]
+[debug] == resolving dependencies default#softcrossdevicealgo$sources_javadoc_2.11;1.0->com.alibaba#fastjson;1.2.6 [runtime->master]
+[debug] == resolving dependencies default#softcrossdevicealgo$sources_javadoc_2.11;1.0->com.github.scopt#scopt_2.10;3.3.0 [test->default(compile)]
+[debug] == resolving dependencies default#softcrossdevicealgo$sources_javadoc_2.11;1.0->com.github.scopt#scopt_2.10;3.3.0 [test->runtime]
+[debug] == resolving dependencies default#softcrossdevicealgo$sources_javadoc_2.11;1.0->com.github.scopt#scopt_2.10;3.3.0 [test->compile]
+[debug] == resolving dependencies default#softcrossdevicealgo$sources_javadoc_2.11;1.0->com.github.scopt#scopt_2.10;3.3.0 [test->master]
+[debug] == resolving dependencies default#softcrossdevicealgo$sources_javadoc_2.11;1.0->com.alibaba#fastjson;1.2.6 [test->default(compile)]
+[debug] == resolving dependencies default#softcrossdevicealgo$sources_javadoc_2.11;1.0->com.alibaba#fastjson;1.2.6 [test->runtime]
+[debug] == resolving dependencies default#softcrossdevicealgo$sources_javadoc_2.11;1.0->com.alibaba#fastjson;1.2.6 [test->compile]
+[debug] == resolving dependencies default#softcrossdevicealgo$sources_javadoc_2.11;1.0->com.alibaba#fastjson;1.2.6 [test->master]
+[debug] resolving dependencies for configuration 'provided'
+[debug] == resolving dependencies for default#softcrossdevicealgo$sources_javadoc_2.11;1.0 [provided]
+[debug] == resolving dependencies default#softcrossdevicealgo$sources_javadoc_2.11;1.0->org.apache.spark#spark-core_2.11;1.3.1 [provided->default(compile)]
+[info] Resolving org.apache.spark#spark-core_2.11;1.3.1 ...
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@76ec44d6
+[debug] sbt-chain: module revision found in cache: org.apache.spark#spark-core_2.11;1.3.1
+[debug] 	found org.apache.spark#spark-core_2.11;1.3.1 in sbt-chain
+[debug] == resolving dependencies default#softcrossdevicealgo$sources_javadoc_2.11;1.0->org.apache.spark#spark-core_2.11;1.3.1 [provided->runtime]
+[debug] == resolving dependencies default#softcrossdevicealgo$sources_javadoc_2.11;1.0->org.apache.spark#spark-core_2.11;1.3.1 [provided->compile]
+[debug] == resolving dependencies default#softcrossdevicealgo$sources_javadoc_2.11;1.0->org.apache.spark#spark-core_2.11;1.3.1 [provided->master]
+[debug] == resolving dependencies default#softcrossdevicealgo$sources_javadoc_2.11;1.0->com.twitter#chill_2.11;0.5.0 [provided->default(compile)]
+[info] Resolving com.twitter#chill_2.11;0.5.0 ...
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@c63fcb6
+[debug] sbt-chain: module revision found in cache: com.twitter#chill_2.11;0.5.0
+[debug] 	found com.twitter#chill_2.11;0.5.0 in sbt-chain
+[debug] == resolving dependencies default#softcrossdevicealgo$sources_javadoc_2.11;1.0->com.twitter#chill_2.11;0.5.0 [provided->runtime]
+[debug] == resolving dependencies default#softcrossdevicealgo$sources_javadoc_2.11;1.0->com.twitter#chill_2.11;0.5.0 [provided->compile]
+[debug] == resolving dependencies default#softcrossdevicealgo$sources_javadoc_2.11;1.0->com.twitter#chill_2.11;0.5.0 [provided->master]
+[debug] == resolving dependencies default#softcrossdevicealgo$sources_javadoc_2.11;1.0->com.twitter#chill-java;0.5.0 [provided->default(compile)]
+[info] Resolving com.twitter#chill-java;0.5.0 ...
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@26bd45d1
+[debug] sbt-chain: module revision found in cache: com.twitter#chill-java;0.5.0
+[debug] 	found com.twitter#chill-java;0.5.0 in sbt-chain
+[debug] == resolving dependencies default#softcrossdevicealgo$sources_javadoc_2.11;1.0->com.twitter#chill-java;0.5.0 [provided->runtime]
+[debug] == resolving dependencies default#softcrossdevicealgo$sources_javadoc_2.11;1.0->com.twitter#chill-java;0.5.0 [provided->compile]
+[debug] == resolving dependencies default#softcrossdevicealgo$sources_javadoc_2.11;1.0->com.twitter#chill-java;0.5.0 [provided->master]
+[debug] == resolving dependencies default#softcrossdevicealgo$sources_javadoc_2.11;1.0->com.esotericsoftware.kryo#kryo;2.21 [provided->default(compile)]
+[info] Resolving com.esotericsoftware.kryo#kryo;2.21 ...
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@790e693b
+[debug] sbt-chain: module revision found in cache: com.esotericsoftware.kryo#kryo;2.21
+[debug] 	found com.esotericsoftware.kryo#kryo;2.21 in sbt-chain
+[debug] == resolving dependencies default#softcrossdevicealgo$sources_javadoc_2.11;1.0->com.esotericsoftware.kryo#kryo;2.21 [provided->runtime]
+[debug] == resolving dependencies default#softcrossdevicealgo$sources_javadoc_2.11;1.0->com.esotericsoftware.kryo#kryo;2.21 [provided->compile]
+[debug] == resolving dependencies default#softcrossdevicealgo$sources_javadoc_2.11;1.0->com.esotericsoftware.kryo#kryo;2.21 [provided->master]
+[debug] == resolving dependencies default#softcrossdevicealgo$sources_javadoc_2.11;1.0->com.esotericsoftware.reflectasm#reflectasm;1.07 [provided->default(compile)]
+[info] Resolving com.esotericsoftware.reflectasm#reflectasm;1.07 ...
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@5b540c33
+[debug] sbt-chain: module revision found in cache: com.esotericsoftware.reflectasm#reflectasm;1.07
+[debug] 	found com.esotericsoftware.reflectasm#reflectasm;1.07 in sbt-chain
+[debug] == resolving dependencies default#softcrossdevicealgo$sources_javadoc_2.11;1.0->com.esotericsoftware.reflectasm#reflectasm;1.07 [provided->runtime]
+[debug] == resolving dependencies default#softcrossdevicealgo$sources_javadoc_2.11;1.0->com.esotericsoftware.reflectasm#reflectasm;1.07 [provided->compile]
+[debug] == resolving dependencies default#softcrossdevicealgo$sources_javadoc_2.11;1.0->com.esotericsoftware.reflectasm#reflectasm;1.07 [provided->master]
+[debug] == resolving dependencies default#softcrossdevicealgo$sources_javadoc_2.11;1.0->com.esotericsoftware.minlog#minlog;1.2 [provided->default(compile)]
+[info] Resolving com.esotericsoftware.minlog#minlog;1.2 ...
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@49af89d3
+[debug] sbt-chain: module revision found in cache: com.esotericsoftware.minlog#minlog;1.2
+[debug] 	found com.esotericsoftware.minlog#minlog;1.2 in sbt-chain
+[debug] == resolving dependencies default#softcrossdevicealgo$sources_javadoc_2.11;1.0->com.esotericsoftware.minlog#minlog;1.2 [provided->runtime]
+[debug] == resolving dependencies default#softcrossdevicealgo$sources_javadoc_2.11;1.0->com.esotericsoftware.minlog#minlog;1.2 [provided->compile]
+[debug] == resolving dependencies default#softcrossdevicealgo$sources_javadoc_2.11;1.0->com.esotericsoftware.minlog#minlog;1.2 [provided->master]
+[debug] == resolving dependencies default#softcrossdevicealgo$sources_javadoc_2.11;1.0->org.objenesis#objenesis;1.2 [provided->default(compile)]
+[info] Resolving org.objenesis#objenesis;1.2 ...
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@6a95be47
+[debug] sbt-chain: module revision found in cache: org.objenesis#objenesis;1.2
+[debug] 	found org.objenesis#objenesis;1.2 in sbt-chain
+[debug] == resolving dependencies default#softcrossdevicealgo$sources_javadoc_2.11;1.0->org.objenesis#objenesis;1.2 [provided->runtime]
+[debug] == resolving dependencies default#softcrossdevicealgo$sources_javadoc_2.11;1.0->org.objenesis#objenesis;1.2 [provided->compile]
+[debug] == resolving dependencies default#softcrossdevicealgo$sources_javadoc_2.11;1.0->org.objenesis#objenesis;1.2 [provided->master]
+[debug] == resolving dependencies default#softcrossdevicealgo$sources_javadoc_2.11;1.0->org.apache.hadoop#hadoop-client;2.2.0 [provided->default(compile)]
+[info] Resolving org.apache.hadoop#hadoop-client;2.2.0 ...
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@179c0b11
+[debug] sbt-chain: module revision found in cache: org.apache.hadoop#hadoop-client;2.2.0
+[debug] 	found org.apache.hadoop#hadoop-client;2.2.0 in sbt-chain
+[debug] == resolving dependencies default#softcrossdevicealgo$sources_javadoc_2.11;1.0->org.apache.hadoop#hadoop-client;2.2.0 [provided->runtime]
+[debug] == resolving dependencies default#softcrossdevicealgo$sources_javadoc_2.11;1.0->org.apache.hadoop#hadoop-client;2.2.0 [provided->compile]
+[debug] == resolving dependencies default#softcrossdevicealgo$sources_javadoc_2.11;1.0->org.apache.hadoop#hadoop-client;2.2.0 [provided->master]
+[debug] == resolving dependencies default#softcrossdevicealgo$sources_javadoc_2.11;1.0->org.apache.hadoop#hadoop-common;2.2.0 [provided->default(compile)]
+[info] Resolving org.apache.hadoop#hadoop-common;2.2.0 ...
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@1b0bb6d7
+[debug] sbt-chain: module revision found in cache: org.apache.hadoop#hadoop-common;2.2.0
+[debug] 	found org.apache.hadoop#hadoop-common;2.2.0 in sbt-chain
+[debug] == resolving dependencies default#softcrossdevicealgo$sources_javadoc_2.11;1.0->org.apache.hadoop#hadoop-common;2.2.0 [provided->runtime]
+[debug] == resolving dependencies default#softcrossdevicealgo$sources_javadoc_2.11;1.0->org.apache.hadoop#hadoop-common;2.2.0 [provided->compile]
+[debug] == resolving dependencies default#softcrossdevicealgo$sources_javadoc_2.11;1.0->org.apache.hadoop#hadoop-common;2.2.0 [provided->master]
+[debug] == resolving dependencies default#softcrossdevicealgo$sources_javadoc_2.11;1.0->org.apache.hadoop#hadoop-annotations;2.2.0 [provided->default(compile)]
+[info] Resolving org.apache.hadoop#hadoop-annotations;2.2.0 ...
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@15169457
+[debug] sbt-chain: module revision found in cache: org.apache.hadoop#hadoop-annotations;2.2.0
+[debug] 	found org.apache.hadoop#hadoop-annotations;2.2.0 in sbt-chain
+[debug] == resolving dependencies default#softcrossdevicealgo$sources_javadoc_2.11;1.0->org.apache.hadoop#hadoop-annotations;2.2.0 [provided->runtime]
+[debug] == resolving dependencies default#softcrossdevicealgo$sources_javadoc_2.11;1.0->org.apache.hadoop#hadoop-annotations;2.2.0 [provided->compile]
+[debug] == resolving dependencies default#softcrossdevicealgo$sources_javadoc_2.11;1.0->org.apache.hadoop#hadoop-annotations;2.2.0 [provided->master]
+[debug] == resolving dependencies default#softcrossdevicealgo$sources_javadoc_2.11;1.0->commons-cli#commons-cli;1.2 [provided->default(compile)]
+[info] Resolving commons-cli#commons-cli;1.2 ...
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@785625ea
+[debug] sbt-chain: module revision found in cache: commons-cli#commons-cli;1.2
+[debug] 	found commons-cli#commons-cli;1.2 in sbt-chain
+[debug] == resolving dependencies default#softcrossdevicealgo$sources_javadoc_2.11;1.0->commons-cli#commons-cli;1.2 [provided->runtime]
+[debug] == resolving dependencies default#softcrossdevicealgo$sources_javadoc_2.11;1.0->commons-cli#commons-cli;1.2 [provided->compile]
+[debug] == resolving dependencies default#softcrossdevicealgo$sources_javadoc_2.11;1.0->commons-cli#commons-cli;1.2 [provided->master]
+[debug] == resolving dependencies default#softcrossdevicealgo$sources_javadoc_2.11;1.0->org.apache.commons#commons-math;2.1 [provided->default(compile)]
+[info] Resolving org.apache.commons#commons-math;2.1 ...
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@3a5e63b2
+[debug] sbt-chain: module revision found in cache: org.apache.commons#commons-math;2.1
+[debug] 	found org.apache.commons#commons-math;2.1 in sbt-chain
+[debug] == resolving dependencies default#softcrossdevicealgo$sources_javadoc_2.11;1.0->org.apache.commons#commons-math;2.1 [provided->runtime]
+[debug] == resolving dependencies default#softcrossdevicealgo$sources_javadoc_2.11;1.0->org.apache.commons#commons-math;2.1 [provided->compile]
+[debug] == resolving dependencies default#softcrossdevicealgo$sources_javadoc_2.11;1.0->org.apache.commons#commons-math;2.1 [provided->master]
+[debug] == resolving dependencies default#softcrossdevicealgo$sources_javadoc_2.11;1.0->commons-httpclient#commons-httpclient;3.1 [provided->default(compile)]
+[info] Resolving commons-httpclient#commons-httpclient;3.1 ...
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@309e1550
+[debug] sbt-chain: module revision found in cache: commons-httpclient#commons-httpclient;3.1
+[debug] 	found commons-httpclient#commons-httpclient;3.1 in sbt-chain
+[debug] == resolving dependencies default#softcrossdevicealgo$sources_javadoc_2.11;1.0->commons-httpclient#commons-httpclient;3.1 [provided->runtime]
+[debug] == resolving dependencies default#softcrossdevicealgo$sources_javadoc_2.11;1.0->commons-httpclient#commons-httpclient;3.1 [provided->compile]
+[debug] == resolving dependencies default#softcrossdevicealgo$sources_javadoc_2.11;1.0->commons-httpclient#commons-httpclient;3.1 [provided->master]
+[debug] == resolving dependencies default#softcrossdevicealgo$sources_javadoc_2.11;1.0->commons-logging#commons-logging;1.1.1 [provided->default(compile)]
+[info] Resolving commons-logging#commons-logging;1.1.1 ...
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@7b3fd851
+[debug] sbt-chain: module revision found in cache: commons-logging#commons-logging;1.1.1
+[debug] 	found commons-logging#commons-logging;1.1.1 in sbt-chain
+[debug] == resolving dependencies default#softcrossdevicealgo$sources_javadoc_2.11;1.0->commons-logging#commons-logging;1.1.1 [provided->runtime]
+[debug] == resolving dependencies default#softcrossdevicealgo$sources_javadoc_2.11;1.0->commons-logging#commons-logging;1.1.1 [provided->compile]
+[debug] == resolving dependencies default#softcrossdevicealgo$sources_javadoc_2.11;1.0->commons-logging#commons-logging;1.1.1 [provided->master]
+[debug] == resolving dependencies default#softcrossdevicealgo$sources_javadoc_2.11;1.0->log4j#log4j;1.2.17 [provided->default(compile)]
+[info] Resolving log4j#log4j;1.2.17 ...
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@59088a40
+[debug] sbt-chain: module revision found in cache: log4j#log4j;1.2.17
+[debug] 	found log4j#log4j;1.2.17 in sbt-chain
+[debug] == resolving dependencies default#softcrossdevicealgo$sources_javadoc_2.11;1.0->log4j#log4j;1.2.17 [provided->runtime]
+[debug] == resolving dependencies default#softcrossdevicealgo$sources_javadoc_2.11;1.0->log4j#log4j;1.2.17 [provided->compile]
+[debug] == resolving dependencies default#softcrossdevicealgo$sources_javadoc_2.11;1.0->log4j#log4j;1.2.17 [provided->master]
+[debug] == resolving dependencies default#softcrossdevicealgo$sources_javadoc_2.11;1.0->commons-lang#commons-lang;2.5 [provided->default(compile)]
+[info] Resolving commons-lang#commons-lang;2.5 ...
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@55d8d2b9
+[debug] sbt-chain: module revision found in cache: commons-lang#commons-lang;2.5
+[debug] 	found commons-lang#commons-lang;2.5 in sbt-chain
+[debug] == resolving dependencies default#softcrossdevicealgo$sources_javadoc_2.11;1.0->commons-lang#commons-lang;2.5 [provided->runtime]
+[debug] == resolving dependencies default#softcrossdevicealgo$sources_javadoc_2.11;1.0->commons-lang#commons-lang;2.5 [provided->compile]
+[debug] == resolving dependencies default#softcrossdevicealgo$sources_javadoc_2.11;1.0->commons-lang#commons-lang;2.5 [provided->master]
+[debug] == resolving dependencies default#softcrossdevicealgo$sources_javadoc_2.11;1.0->commons-configuration#commons-configuration;1.6 [provided->default(compile)]
+[info] Resolving commons-configuration#commons-configuration;1.6 ...
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@2c5ae452
+[debug] sbt-chain: module revision found in cache: commons-configuration#commons-configuration;1.6
+[debug] 	found commons-configuration#commons-configuration;1.6 in sbt-chain
+[debug] == resolving dependencies default#softcrossdevicealgo$sources_javadoc_2.11;1.0->commons-configuration#commons-configuration;1.6 [provided->runtime]
+[debug] == resolving dependencies default#softcrossdevicealgo$sources_javadoc_2.11;1.0->commons-configuration#commons-configuration;1.6 [provided->compile]
+[debug] == resolving dependencies default#softcrossdevicealgo$sources_javadoc_2.11;1.0->commons-configuration#commons-configuration;1.6 [provided->master]
+[debug] == resolving dependencies default#softcrossdevicealgo$sources_javadoc_2.11;1.0->commons-collections#commons-collections;3.2.1 [provided->default(compile)]
+[info] Resolving commons-collections#commons-collections;3.2.1 ...
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@2fac25cb
+[debug] sbt-chain: module revision found in cache: commons-collections#commons-collections;3.2.1
+[debug] 	found commons-collections#commons-collections;3.2.1 in sbt-chain
+[debug] == resolving dependencies default#softcrossdevicealgo$sources_javadoc_2.11;1.0->commons-collections#commons-collections;3.2.1 [provided->runtime]
+[debug] == resolving dependencies default#softcrossdevicealgo$sources_javadoc_2.11;1.0->commons-collections#commons-collections;3.2.1 [provided->compile]
+[debug] == resolving dependencies default#softcrossdevicealgo$sources_javadoc_2.11;1.0->commons-collections#commons-collections;3.2.1 [provided->master]
+[debug] == resolving dependencies default#softcrossdevicealgo$sources_javadoc_2.11;1.0->commons-digester#commons-digester;1.8 [provided->default(compile)]
+[info] Resolving commons-digester#commons-digester;1.8 ...
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@471164ef
+[debug] sbt-chain: module revision found in cache: commons-digester#commons-digester;1.8
+[debug] 	found commons-digester#commons-digester;1.8 in sbt-chain
+[debug] == resolving dependencies default#softcrossdevicealgo$sources_javadoc_2.11;1.0->commons-digester#commons-digester;1.8 [provided->runtime]
+[debug] == resolving dependencies default#softcrossdevicealgo$sources_javadoc_2.11;1.0->commons-digester#commons-digester;1.8 [provided->compile]
+[debug] == resolving dependencies default#softcrossdevicealgo$sources_javadoc_2.11;1.0->commons-digester#commons-digester;1.8 [provided->master]
+[debug] == resolving dependencies default#softcrossdevicealgo$sources_javadoc_2.11;1.0->commons-beanutils#commons-beanutils;1.7.0 [provided->default(compile)]
+[info] Resolving commons-beanutils#commons-beanutils;1.7.0 ...
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@143900a1
+[debug] sbt-chain: module revision found in cache: commons-beanutils#commons-beanutils;1.7.0
+[debug] 	found commons-beanutils#commons-beanutils;1.7.0 in sbt-chain
+[debug] == resolving dependencies default#softcrossdevicealgo$sources_javadoc_2.11;1.0->commons-beanutils#commons-beanutils;1.7.0 [provided->runtime]
+[debug] == resolving dependencies default#softcrossdevicealgo$sources_javadoc_2.11;1.0->commons-beanutils#commons-beanutils;1.7.0 [provided->compile]
+[debug] == resolving dependencies default#softcrossdevicealgo$sources_javadoc_2.11;1.0->commons-beanutils#commons-beanutils;1.7.0 [provided->master]
+[debug] == resolving dependencies default#softcrossdevicealgo$sources_javadoc_2.11;1.0->org.apache.avro#avro;1.7.4 [provided->default(compile)]
+[info] Resolving org.apache.avro#avro;1.7.4 ...
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@7e98713d
+[debug] sbt-chain: module revision found in cache: org.apache.avro#avro;1.7.4
+[debug] 	found org.apache.avro#avro;1.7.4 in sbt-chain
+[debug] == resolving dependencies default#softcrossdevicealgo$sources_javadoc_2.11;1.0->org.apache.avro#avro;1.7.4 [provided->runtime]
+[debug] == resolving dependencies default#softcrossdevicealgo$sources_javadoc_2.11;1.0->org.apache.avro#avro;1.7.4 [provided->compile]
+[debug] == resolving dependencies default#softcrossdevicealgo$sources_javadoc_2.11;1.0->org.apache.avro#avro;1.7.4 [provided->master]
+[debug] == resolving dependencies default#softcrossdevicealgo$sources_javadoc_2.11;1.0->org.apache.commons#commons-compress;1.4.1 [provided->default(compile)]
+[info] Resolving org.apache.commons#commons-compress;1.4.1 ...
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@dd59aa5
+[debug] sbt-chain: module revision found in cache: org.apache.commons#commons-compress;1.4.1
+[debug] 	found org.apache.commons#commons-compress;1.4.1 in sbt-chain
+[debug] == resolving dependencies default#softcrossdevicealgo$sources_javadoc_2.11;1.0->org.apache.commons#commons-compress;1.4.1 [provided->runtime]
+[debug] == resolving dependencies default#softcrossdevicealgo$sources_javadoc_2.11;1.0->org.apache.commons#commons-compress;1.4.1 [provided->compile]
+[debug] == resolving dependencies default#softcrossdevicealgo$sources_javadoc_2.11;1.0->org.apache.commons#commons-compress;1.4.1 [provided->master]
+[debug] == resolving dependencies default#softcrossdevicealgo$sources_javadoc_2.11;1.0->org.tukaani#xz;1.0 [provided->default(compile)]
+[info] Resolving org.tukaani#xz;1.0 ...
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@185090b5
+[debug] sbt-chain: module revision found in cache: org.tukaani#xz;1.0
+[debug] 	found org.tukaani#xz;1.0 in sbt-chain
+[debug] == resolving dependencies default#softcrossdevicealgo$sources_javadoc_2.11;1.0->org.tukaani#xz;1.0 [provided->runtime]
+[debug] == resolving dependencies default#softcrossdevicealgo$sources_javadoc_2.11;1.0->org.tukaani#xz;1.0 [provided->compile]
+[debug] == resolving dependencies default#softcrossdevicealgo$sources_javadoc_2.11;1.0->org.tukaani#xz;1.0 [provided->master]
+[debug] == resolving dependencies default#softcrossdevicealgo$sources_javadoc_2.11;1.0->org.slf4j#slf4j-api;1.6.4 [provided->default(compile)]
+[info] Resolving org.slf4j#slf4j-api;1.6.4 ...
+[debug] sbt-chain: Checking cache for: dependency: org.slf4j#slf4j-api;1.6.4 {provided=[default(compile)]}
+[debug] sbt-chain: module revision found in cache: org.slf4j#slf4j-api;1.6.4
+[debug] 	found org.slf4j#slf4j-api;1.6.4 in sbt-chain
+[debug] == resolving dependencies default#softcrossdevicealgo$sources_javadoc_2.11;1.0->org.slf4j#slf4j-api;1.6.4 [provided->runtime]
+[debug] == resolving dependencies default#softcrossdevicealgo$sources_javadoc_2.11;1.0->org.slf4j#slf4j-api;1.6.4 [provided->compile]
+[debug] == resolving dependencies default#softcrossdevicealgo$sources_javadoc_2.11;1.0->org.slf4j#slf4j-api;1.6.4 [provided->master]
+[debug] == resolving dependencies default#softcrossdevicealgo$sources_javadoc_2.11;1.0->com.google.protobuf#protobuf-java;2.5.0 [provided->default(compile)]
+[info] Resolving com.google.protobuf#protobuf-java;2.5.0 ...
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@5d62df94
+[debug] sbt-chain: module revision found in cache: com.google.protobuf#protobuf-java;2.5.0
+[debug] 	found com.google.protobuf#protobuf-java;2.5.0 in sbt-chain
+[debug] == resolving dependencies default#softcrossdevicealgo$sources_javadoc_2.11;1.0->com.google.protobuf#protobuf-java;2.5.0 [provided->runtime]
+[debug] == resolving dependencies default#softcrossdevicealgo$sources_javadoc_2.11;1.0->com.google.protobuf#protobuf-java;2.5.0 [provided->compile]
+[debug] == resolving dependencies default#softcrossdevicealgo$sources_javadoc_2.11;1.0->com.google.protobuf#protobuf-java;2.5.0 [provided->master]
+[debug] == resolving dependencies default#softcrossdevicealgo$sources_javadoc_2.11;1.0->org.apache.hadoop#hadoop-auth;2.2.0 [provided->default(compile)]
+[info] Resolving org.apache.hadoop#hadoop-auth;2.2.0 ...
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@48d88a23
+[debug] sbt-chain: module revision found in cache: org.apache.hadoop#hadoop-auth;2.2.0
+[debug] 	found org.apache.hadoop#hadoop-auth;2.2.0 in sbt-chain
+[debug] == resolving dependencies default#softcrossdevicealgo$sources_javadoc_2.11;1.0->org.apache.hadoop#hadoop-auth;2.2.0 [provided->runtime]
+[debug] == resolving dependencies default#softcrossdevicealgo$sources_javadoc_2.11;1.0->org.apache.hadoop#hadoop-auth;2.2.0 [provided->compile]
+[debug] == resolving dependencies default#softcrossdevicealgo$sources_javadoc_2.11;1.0->org.apache.hadoop#hadoop-auth;2.2.0 [provided->master]
+[debug] == resolving dependencies default#softcrossdevicealgo$sources_javadoc_2.11;1.0->org.apache.hadoop#hadoop-hdfs;2.2.0 [provided->default(compile)]
+[info] Resolving org.apache.hadoop#hadoop-hdfs;2.2.0 ...
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@9e02b1c
+[debug] sbt-chain: module revision found in cache: org.apache.hadoop#hadoop-hdfs;2.2.0
+[debug] 	found org.apache.hadoop#hadoop-hdfs;2.2.0 in sbt-chain
+[debug] == resolving dependencies default#softcrossdevicealgo$sources_javadoc_2.11;1.0->org.apache.hadoop#hadoop-hdfs;2.2.0 [provided->runtime]
+[debug] == resolving dependencies default#softcrossdevicealgo$sources_javadoc_2.11;1.0->org.apache.hadoop#hadoop-hdfs;2.2.0 [provided->compile]
+[debug] == resolving dependencies default#softcrossdevicealgo$sources_javadoc_2.11;1.0->org.apache.hadoop#hadoop-hdfs;2.2.0 [provided->master]
+[debug] == resolving dependencies default#softcrossdevicealgo$sources_javadoc_2.11;1.0->org.mortbay.jetty#jetty-util;6.1.26 [provided->default(compile)]
+[info] Resolving org.mortbay.jetty#jetty-util;6.1.26 ...
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@17decc82
+[debug] sbt-chain: module revision found in cache: org.mortbay.jetty#jetty-util;6.1.26
+[debug] 	found org.mortbay.jetty#jetty-util;6.1.26 in sbt-chain
+[debug] == resolving dependencies default#softcrossdevicealgo$sources_javadoc_2.11;1.0->org.mortbay.jetty#jetty-util;6.1.26 [provided->runtime]
+[debug] == resolving dependencies default#softcrossdevicealgo$sources_javadoc_2.11;1.0->org.mortbay.jetty#jetty-util;6.1.26 [provided->compile]
+[debug] == resolving dependencies default#softcrossdevicealgo$sources_javadoc_2.11;1.0->org.mortbay.jetty#jetty-util;6.1.26 [provided->master]
+[debug] == resolving dependencies default#softcrossdevicealgo$sources_javadoc_2.11;1.0->org.apache.hadoop#hadoop-mapreduce-client-app;2.2.0 [provided->default(compile)]
+[info] Resolving org.apache.hadoop#hadoop-mapreduce-client-app;2.2.0 ...
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@77dfa166
+[debug] sbt-chain: module revision found in cache: org.apache.hadoop#hadoop-mapreduce-client-app;2.2.0
+[debug] 	found org.apache.hadoop#hadoop-mapreduce-client-app;2.2.0 in sbt-chain
+[debug] == resolving dependencies default#softcrossdevicealgo$sources_javadoc_2.11;1.0->org.apache.hadoop#hadoop-mapreduce-client-app;2.2.0 [provided->runtime]
+[debug] == resolving dependencies default#softcrossdevicealgo$sources_javadoc_2.11;1.0->org.apache.hadoop#hadoop-mapreduce-client-app;2.2.0 [provided->compile]
+[debug] == resolving dependencies default#softcrossdevicealgo$sources_javadoc_2.11;1.0->org.apache.hadoop#hadoop-mapreduce-client-app;2.2.0 [provided->master]
+[debug] == resolving dependencies default#softcrossdevicealgo$sources_javadoc_2.11;1.0->org.apache.hadoop#hadoop-mapreduce-client-common;2.2.0 [provided->default(compile)]
+[info] Resolving org.apache.hadoop#hadoop-mapreduce-client-common;2.2.0 ...
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@3768f6f2
+[info] Resolving org.apache.hadoop#hadoop-mapreduce-client-common;2.2.0 ...
+[debug] sbt-chain-delegate: Checking cache for: sbt.ivyint.MergedDescriptors@3768f6f2
+[debug] 		tried /Users/zhouyong/.ivy2/local/org.apache.hadoop/hadoop-mapreduce-client-common/2.2.0/ivys/ivy.xml
+[debug] 	local: no ivy file found for org.apache.hadoop#hadoop-mapreduce-client-common;2.2.0
+[debug] 		tried https://repo1.maven.org/maven2/org/apache/hadoop/hadoop-mapreduce-client-common/2.2.0/hadoop-mapreduce-client-common-2.2.0.pom
+[debug] 	public: found md file for org.apache.hadoop#hadoop-mapreduce-client-common;2.2.0
+[debug] 		=> https://repo1.maven.org/maven2/org/apache/hadoop/hadoop-mapreduce-client-common/2.2.0/hadoop-mapreduce-client-common-2.2.0.pom (2.2.0)
+[debug] downloading https://repo1.maven.org/maven2/org/apache/hadoop/hadoop-mapreduce-client-common/2.2.0/hadoop-mapreduce-client-common-2.2.0.pom ...
+[debug] 	public: downloading https://repo1.maven.org/maven2/org/apache/hadoop/hadoop-mapreduce-client-common/2.2.0/hadoop-mapreduce-client-common-2.2.0.pom
+[debug] 	public: downloading https://repo1.maven.org/maven2/org/apache/hadoop/hadoop-mapreduce-client-common/2.2.0/hadoop-mapreduce-client-common-2.2.0.pom.sha1
+[debug] sha1 OK for https://repo1.maven.org/maven2/org/apache/hadoop/hadoop-mapreduce-client-common/2.2.0/hadoop-mapreduce-client-common-2.2.0.pom
+[debug] 	[SUCCESSFUL ] org.apache.hadoop#hadoop-mapreduce-client-common;2.2.0!hadoop-mapreduce-client-common.pom(pom.original) (14402ms)
+[info] Resolving org.apache.hadoop#hadoop-mapreduce-client;2.2.0 ...
+[debug] sbt-chain: Checking cache for: dependency: org.apache.hadoop#hadoop-mapreduce-client;2.2.0 {}
+[debug] sbt-chain: module revision found in cache: org.apache.hadoop#hadoop-mapreduce-client;2.2.0
+[debug] 	found org.apache.hadoop#hadoop-mapreduce-client-common;2.2.0 in public
+[debug] == resolving dependencies default#softcrossdevicealgo$sources_javadoc_2.11;1.0->org.apache.hadoop#hadoop-mapreduce-client-common;2.2.0 [provided->runtime]
+[debug] == resolving dependencies default#softcrossdevicealgo$sources_javadoc_2.11;1.0->org.apache.hadoop#hadoop-mapreduce-client-common;2.2.0 [provided->compile]
+[debug] == resolving dependencies default#softcrossdevicealgo$sources_javadoc_2.11;1.0->org.apache.hadoop#hadoop-mapreduce-client-common;2.2.0 [provided->master]
+[debug] == resolving dependencies default#softcrossdevicealgo$sources_javadoc_2.11;1.0->org.apache.hadoop#hadoop-yarn-common;2.2.0 [provided->default(compile)]
+[info] Resolving org.apache.hadoop#hadoop-yarn-common;2.2.0 ...
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@1aac32cd
+[info] Resolving org.apache.hadoop#hadoop-yarn-common;2.2.0 ...
+[debug] sbt-chain-delegate: Checking cache for: sbt.ivyint.MergedDescriptors@1aac32cd
+[debug] 		tried /Users/zhouyong/.ivy2/local/org.apache.hadoop/hadoop-yarn-common/2.2.0/ivys/ivy.xml
+[debug] 	local: no ivy file found for org.apache.hadoop#hadoop-yarn-common;2.2.0
+[debug] 		tried https://repo1.maven.org/maven2/org/apache/hadoop/hadoop-yarn-common/2.2.0/hadoop-yarn-common-2.2.0.pom
+[debug] 	public: found md file for org.apache.hadoop#hadoop-yarn-common;2.2.0
+[debug] 		=> https://repo1.maven.org/maven2/org/apache/hadoop/hadoop-yarn-common/2.2.0/hadoop-yarn-common-2.2.0.pom (2.2.0)
+[debug] downloading https://repo1.maven.org/maven2/org/apache/hadoop/hadoop-yarn-common/2.2.0/hadoop-yarn-common-2.2.0.pom ...
+[debug] 	public: downloading https://repo1.maven.org/maven2/org/apache/hadoop/hadoop-yarn-common/2.2.0/hadoop-yarn-common-2.2.0.pom
+[debug] 	public: downloading https://repo1.maven.org/maven2/org/apache/hadoop/hadoop-yarn-common/2.2.0/hadoop-yarn-common-2.2.0.pom.sha1
+[debug] sha1 OK for https://repo1.maven.org/maven2/org/apache/hadoop/hadoop-yarn-common/2.2.0/hadoop-yarn-common-2.2.0.pom
+[debug] 	[SUCCESSFUL ] org.apache.hadoop#hadoop-yarn-common;2.2.0!hadoop-yarn-common.pom(pom.original) (12350ms)
+[info] Resolving org.apache.hadoop#hadoop-yarn;2.2.0 ...
+[debug] sbt-chain: Checking cache for: dependency: org.apache.hadoop#hadoop-yarn;2.2.0 {}
+[debug] sbt-chain: module revision found in cache: org.apache.hadoop#hadoop-yarn;2.2.0
+[debug] 	found org.apache.hadoop#hadoop-yarn-common;2.2.0 in public
+[debug] == resolving dependencies default#softcrossdevicealgo$sources_javadoc_2.11;1.0->org.apache.hadoop#hadoop-yarn-common;2.2.0 [provided->runtime]
+[debug] == resolving dependencies default#softcrossdevicealgo$sources_javadoc_2.11;1.0->org.apache.hadoop#hadoop-yarn-common;2.2.0 [provided->compile]
+[debug] == resolving dependencies default#softcrossdevicealgo$sources_javadoc_2.11;1.0->org.apache.hadoop#hadoop-yarn-common;2.2.0 [provided->master]
+[debug] == resolving dependencies default#softcrossdevicealgo$sources_javadoc_2.11;1.0->org.apache.hadoop#hadoop-yarn-api;2.2.0 [provided->default(compile)]
+[info] Resolving org.apache.hadoop#hadoop-yarn-api;2.2.0 ...
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@cd7756b
+[info] Resolving org.apache.hadoop#hadoop-yarn-api;2.2.0 ...
+[debug] sbt-chain-delegate: Checking cache for: sbt.ivyint.MergedDescriptors@cd7756b
+[debug] 		tried /Users/zhouyong/.ivy2/local/org.apache.hadoop/hadoop-yarn-api/2.2.0/ivys/ivy.xml
+[debug] 	local: no ivy file found for org.apache.hadoop#hadoop-yarn-api;2.2.0
+[debug] 		tried https://repo1.maven.org/maven2/org/apache/hadoop/hadoop-yarn-api/2.2.0/hadoop-yarn-api-2.2.0.pom
+[debug] 	public: found md file for org.apache.hadoop#hadoop-yarn-api;2.2.0
+[debug] 		=> https://repo1.maven.org/maven2/org/apache/hadoop/hadoop-yarn-api/2.2.0/hadoop-yarn-api-2.2.0.pom (2.2.0)
+[debug] downloading https://repo1.maven.org/maven2/org/apache/hadoop/hadoop-yarn-api/2.2.0/hadoop-yarn-api-2.2.0.pom ...
+[debug] 	public: downloading https://repo1.maven.org/maven2/org/apache/hadoop/hadoop-yarn-api/2.2.0/hadoop-yarn-api-2.2.0.pom
+[debug] 	public: downloading https://repo1.maven.org/maven2/org/apache/hadoop/hadoop-yarn-api/2.2.0/hadoop-yarn-api-2.2.0.pom.sha1
+[debug] sha1 OK for https://repo1.maven.org/maven2/org/apache/hadoop/hadoop-yarn-api/2.2.0/hadoop-yarn-api-2.2.0.pom
+[debug] 	[SUCCESSFUL ] org.apache.hadoop#hadoop-yarn-api;2.2.0!hadoop-yarn-api.pom(pom.original) (16514ms)
+[info] Resolving org.apache.hadoop#hadoop-yarn;2.2.0 ...
+[debug] sbt-chain: Checking cache for: dependency: org.apache.hadoop#hadoop-yarn;2.2.0 {}
+[debug] sbt-chain: module revision found in cache: org.apache.hadoop#hadoop-yarn;2.2.0
+[debug] 	found org.apache.hadoop#hadoop-yarn-api;2.2.0 in public
+[debug] == resolving dependencies default#softcrossdevicealgo$sources_javadoc_2.11;1.0->org.apache.hadoop#hadoop-yarn-api;2.2.0 [provided->runtime]
+[debug] == resolving dependencies default#softcrossdevicealgo$sources_javadoc_2.11;1.0->org.apache.hadoop#hadoop-yarn-api;2.2.0 [provided->compile]
+[debug] == resolving dependencies default#softcrossdevicealgo$sources_javadoc_2.11;1.0->org.apache.hadoop#hadoop-yarn-api;2.2.0 [provided->master]
+[debug] == resolving dependencies default#softcrossdevicealgo$sources_javadoc_2.11;1.0->com.google.inject#guice;3.0 [provided->default(compile)]
+[info] Resolving com.google.inject#guice;3.0 ...
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@24a92f09
+[debug] sbt-chain: module revision found in cache: com.google.inject#guice;3.0
+[debug] 	found com.google.inject#guice;3.0 in sbt-chain
+[debug] == resolving dependencies default#softcrossdevicealgo$sources_javadoc_2.11;1.0->com.google.inject#guice;3.0 [provided->runtime]
+[debug] == resolving dependencies default#softcrossdevicealgo$sources_javadoc_2.11;1.0->com.google.inject#guice;3.0 [provided->compile]
+[debug] == resolving dependencies default#softcrossdevicealgo$sources_javadoc_2.11;1.0->com.google.inject#guice;3.0 [provided->master]
+[debug] == resolving dependencies default#softcrossdevicealgo$sources_javadoc_2.11;1.0->javax.inject#javax.inject;1 [provided->default(compile)]
+[info] Resolving javax.inject#javax.inject;1 ...
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@6c5c48ad
+[debug] sbt-chain: module revision found in cache: javax.inject#javax.inject;1
+[debug] 	found javax.inject#javax.inject;1 in sbt-chain
+[debug] == resolving dependencies default#softcrossdevicealgo$sources_javadoc_2.11;1.0->javax.inject#javax.inject;1 [provided->runtime]
+[debug] == resolving dependencies default#softcrossdevicealgo$sources_javadoc_2.11;1.0->javax.inject#javax.inject;1 [provided->compile]
+[debug] == resolving dependencies default#softcrossdevicealgo$sources_javadoc_2.11;1.0->javax.inject#javax.inject;1 [provided->master]
+[debug] == resolving dependencies default#softcrossdevicealgo$sources_javadoc_2.11;1.0->aopalliance#aopalliance;1.0 [provided->default(compile)]
+[info] Resolving aopalliance#aopalliance;1.0 ...
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@3151a850
+[debug] sbt-chain: module revision found in cache: aopalliance#aopalliance;1.0
+[debug] 	found aopalliance#aopalliance;1.0 in sbt-chain
+[debug] == resolving dependencies default#softcrossdevicealgo$sources_javadoc_2.11;1.0->aopalliance#aopalliance;1.0 [provided->runtime]
+[debug] == resolving dependencies default#softcrossdevicealgo$sources_javadoc_2.11;1.0->aopalliance#aopalliance;1.0 [provided->compile]
+[debug] == resolving dependencies default#softcrossdevicealgo$sources_javadoc_2.11;1.0->aopalliance#aopalliance;1.0 [provided->master]
+[debug] == resolving dependencies default#softcrossdevicealgo$sources_javadoc_2.11;1.0->org.sonatype.sisu.inject#cglib;2.2.1-v20090111 [provided->default(compile)]
+[info] Resolving org.sonatype.sisu.inject#cglib;2.2.1-v20090111 ...
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@2bb64d41
+[debug] sbt-chain: module revision found in cache: org.sonatype.sisu.inject#cglib;2.2.1-v20090111
+[debug] 	found org.sonatype.sisu.inject#cglib;2.2.1-v20090111 in sbt-chain
+[debug] == resolving dependencies default#softcrossdevicealgo$sources_javadoc_2.11;1.0->org.sonatype.sisu.inject#cglib;2.2.1-v20090111 [provided->runtime]
+[debug] == resolving dependencies default#softcrossdevicealgo$sources_javadoc_2.11;1.0->org.sonatype.sisu.inject#cglib;2.2.1-v20090111 [provided->compile]
+[debug] == resolving dependencies default#softcrossdevicealgo$sources_javadoc_2.11;1.0->org.sonatype.sisu.inject#cglib;2.2.1-v20090111 [provided->master]
+[debug] == resolving dependencies default#softcrossdevicealgo$sources_javadoc_2.11;1.0->com.sun.jersey.jersey-test-framework#jersey-test-framework-grizzly2;1.9 [provided->default(compile)]
+[info] Resolving com.sun.jersey.jersey-test-framework#jersey-test-framework-grizzly2;1.9 ...
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@3149af25
+[debug] sbt-chain: module revision found in cache: com.sun.jersey.jersey-test-framework#jersey-test-framework-grizzly2;1.9
+[debug] 	found com.sun.jersey.jersey-test-framework#jersey-test-framework-grizzly2;1.9 in sbt-chain
+[debug] == resolving dependencies default#softcrossdevicealgo$sources_javadoc_2.11;1.0->com.sun.jersey.jersey-test-framework#jersey-test-framework-grizzly2;1.9 [provided->runtime]
+[debug] == resolving dependencies default#softcrossdevicealgo$sources_javadoc_2.11;1.0->com.sun.jersey.jersey-test-framework#jersey-test-framework-grizzly2;1.9 [provided->compile]
+[debug] == resolving dependencies default#softcrossdevicealgo$sources_javadoc_2.11;1.0->com.sun.jersey.jersey-test-framework#jersey-test-framework-grizzly2;1.9 [provided->master]
+[debug] == resolving dependencies default#softcrossdevicealgo$sources_javadoc_2.11;1.0->com.sun.jersey#jersey-server;1.9 [provided->default(compile)]
+[info] Resolving com.sun.jersey#jersey-server;1.9 ...
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@3d0ac771
+[debug] sbt-chain: module revision found in cache: com.sun.jersey#jersey-server;1.9
+[debug] 	found com.sun.jersey#jersey-server;1.9 in sbt-chain
+[debug] == resolving dependencies default#softcrossdevicealgo$sources_javadoc_2.11;1.0->com.sun.jersey#jersey-server;1.9 [provided->runtime]
+[debug] == resolving dependencies default#softcrossdevicealgo$sources_javadoc_2.11;1.0->com.sun.jersey#jersey-server;1.9 [provided->compile]
+[debug] == resolving dependencies default#softcrossdevicealgo$sources_javadoc_2.11;1.0->com.sun.jersey#jersey-server;1.9 [provided->master]
+[debug] == resolving dependencies default#softcrossdevicealgo$sources_javadoc_2.11;1.0->com.sun.jersey#jersey-json;1.9 [provided->default(compile)]
+[info] Resolving com.sun.jersey#jersey-json;1.9 ...
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@44dd76e6
+[debug] sbt-chain: module revision found in cache: com.sun.jersey#jersey-json;1.9
+[debug] 	found com.sun.jersey#jersey-json;1.9 in sbt-chain
+[debug] == resolving dependencies default#softcrossdevicealgo$sources_javadoc_2.11;1.0->com.sun.jersey#jersey-json;1.9 [provided->runtime]
+[debug] == resolving dependencies default#softcrossdevicealgo$sources_javadoc_2.11;1.0->com.sun.jersey#jersey-json;1.9 [provided->compile]
+[debug] == resolving dependencies default#softcrossdevicealgo$sources_javadoc_2.11;1.0->com.sun.jersey#jersey-json;1.9 [provided->master]
+[debug] == resolving dependencies default#softcrossdevicealgo$sources_javadoc_2.11;1.0->org.codehaus.jettison#jettison;1.1 [provided->default(compile)]
+[info] Resolving org.codehaus.jettison#jettison;1.1 ...
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@50291ad1
+[debug] sbt-chain: module revision found in cache: org.codehaus.jettison#jettison;1.1
+[debug] 	found org.codehaus.jettison#jettison;1.1 in sbt-chain
+[debug] == resolving dependencies default#softcrossdevicealgo$sources_javadoc_2.11;1.0->org.codehaus.jettison#jettison;1.1 [provided->runtime]
+[debug] == resolving dependencies default#softcrossdevicealgo$sources_javadoc_2.11;1.0->org.codehaus.jettison#jettison;1.1 [provided->compile]
+[debug] == resolving dependencies default#softcrossdevicealgo$sources_javadoc_2.11;1.0->org.codehaus.jettison#jettison;1.1 [provided->master]
+[debug] == resolving dependencies default#softcrossdevicealgo$sources_javadoc_2.11;1.0->com.sun.xml.bind#jaxb-impl;2.2.3-1 [provided->default(compile)]
+[info] Resolving com.sun.xml.bind#jaxb-impl;2.2.3-1 ...
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@67854d59
+[debug] sbt-chain: module revision found in cache: com.sun.xml.bind#jaxb-impl;2.2.3-1
+[debug] 	found com.sun.xml.bind#jaxb-impl;2.2.3-1 in sbt-chain
+[debug] == resolving dependencies default#softcrossdevicealgo$sources_javadoc_2.11;1.0->com.sun.xml.bind#jaxb-impl;2.2.3-1 [provided->runtime]
+[debug] == resolving dependencies default#softcrossdevicealgo$sources_javadoc_2.11;1.0->com.sun.xml.bind#jaxb-impl;2.2.3-1 [provided->compile]
+[debug] == resolving dependencies default#softcrossdevicealgo$sources_javadoc_2.11;1.0->com.sun.xml.bind#jaxb-impl;2.2.3-1 [provided->master]
+[debug] == resolving dependencies default#softcrossdevicealgo$sources_javadoc_2.11;1.0->javax.xml.bind#jaxb-api;2.2.2 [provided->default(compile)]
+[info] Resolving javax.xml.bind#jaxb-api;2.2.2 ...
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@28e3d28d
+[debug] sbt-chain: module revision found in cache: javax.xml.bind#jaxb-api;2.2.2
+[debug] 	found javax.xml.bind#jaxb-api;2.2.2 in sbt-chain
+[debug] == resolving dependencies default#softcrossdevicealgo$sources_javadoc_2.11;1.0->javax.xml.bind#jaxb-api;2.2.2 [provided->runtime]
+[debug] == resolving dependencies default#softcrossdevicealgo$sources_javadoc_2.11;1.0->javax.xml.bind#jaxb-api;2.2.2 [provided->compile]
+[debug] == resolving dependencies default#softcrossdevicealgo$sources_javadoc_2.11;1.0->javax.xml.bind#jaxb-api;2.2.2 [provided->master]
+[debug] == resolving dependencies default#softcrossdevicealgo$sources_javadoc_2.11;1.0->javax.activation#activation;1.1 [provided->default(compile)]
+[info] Resolving javax.activation#activation;1.1 ...
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@5ce5bef8
+[debug] sbt-chain: module revision found in cache: javax.activation#activation;1.1
+[debug] 	found javax.activation#activation;1.1 in sbt-chain
+[debug] == resolving dependencies default#softcrossdevicealgo$sources_javadoc_2.11;1.0->javax.activation#activation;1.1 [provided->runtime]
+[debug] == resolving dependencies default#softcrossdevicealgo$sources_javadoc_2.11;1.0->javax.activation#activation;1.1 [provided->compile]
+[debug] == resolving dependencies default#softcrossdevicealgo$sources_javadoc_2.11;1.0->javax.activation#activation;1.1 [provided->master]
+[debug] == resolving dependencies default#softcrossdevicealgo$sources_javadoc_2.11;1.0->org.codehaus.jackson#jackson-jaxrs;1.8.8 [provided->default(compile)]
+[info] Resolving org.codehaus.jackson#jackson-jaxrs;1.8.8 ...
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@52b35dac
+[debug] sbt-chain: module revision found in cache: org.codehaus.jackson#jackson-jaxrs;1.8.8
+[debug] 	found org.codehaus.jackson#jackson-jaxrs;1.8.8 in sbt-chain
+[debug] == resolving dependencies default#softcrossdevicealgo$sources_javadoc_2.11;1.0->org.codehaus.jackson#jackson-jaxrs;1.8.8 [provided->runtime]
+[debug] == resolving dependencies default#softcrossdevicealgo$sources_javadoc_2.11;1.0->org.codehaus.jackson#jackson-jaxrs;1.8.8 [provided->compile]
+[debug] == resolving dependencies default#softcrossdevicealgo$sources_javadoc_2.11;1.0->org.codehaus.jackson#jackson-jaxrs;1.8.8 [provided->master]
+[debug] == resolving dependencies default#softcrossdevicealgo$sources_javadoc_2.11;1.0->org.codehaus.jackson#jackson-xc;1.8.8 [provided->default(compile)]
+[info] Resolving org.codehaus.jackson#jackson-xc;1.8.8 ...
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@7d95ba00
+[debug] sbt-chain: module revision found in cache: org.codehaus.jackson#jackson-xc;1.8.8
+[debug] 	found org.codehaus.jackson#jackson-xc;1.8.8 in sbt-chain
+[debug] == resolving dependencies default#softcrossdevicealgo$sources_javadoc_2.11;1.0->org.codehaus.jackson#jackson-xc;1.8.8 [provided->runtime]
+[debug] == resolving dependencies default#softcrossdevicealgo$sources_javadoc_2.11;1.0->org.codehaus.jackson#jackson-xc;1.8.8 [provided->compile]
+[debug] == resolving dependencies default#softcrossdevicealgo$sources_javadoc_2.11;1.0->org.codehaus.jackson#jackson-xc;1.8.8 [provided->master]
+[debug] == resolving dependencies default#softcrossdevicealgo$sources_javadoc_2.11;1.0->com.sun.jersey.contribs#jersey-guice;1.9 [provided->default(compile)]
+[info] Resolving com.sun.jersey.contribs#jersey-guice;1.9 ...
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@3ea4df96
+[debug] sbt-chain: module revision found in cache: com.sun.jersey.contribs#jersey-guice;1.9
+[debug] 	found com.sun.jersey.contribs#jersey-guice;1.9 in sbt-chain
+[debug] == resolving dependencies default#softcrossdevicealgo$sources_javadoc_2.11;1.0->com.sun.jersey.contribs#jersey-guice;1.9 [provided->runtime]
+[debug] == resolving dependencies default#softcrossdevicealgo$sources_javadoc_2.11;1.0->com.sun.jersey.contribs#jersey-guice;1.9 [provided->compile]
+[debug] == resolving dependencies default#softcrossdevicealgo$sources_javadoc_2.11;1.0->com.sun.jersey.contribs#jersey-guice;1.9 [provided->master]
+[debug] == resolving dependencies default#softcrossdevicealgo$sources_javadoc_2.11;1.0->org.apache.hadoop#hadoop-yarn-client;2.2.0 [provided->default(compile)]
+[info] Resolving org.apache.hadoop#hadoop-yarn-client;2.2.0 ...
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@24c3e965
+[debug] sbt-chain: module revision found in cache: org.apache.hadoop#hadoop-yarn-client;2.2.0
+[debug] 	found org.apache.hadoop#hadoop-yarn-client;2.2.0 in sbt-chain
+[debug] == resolving dependencies default#softcrossdevicealgo$sources_javadoc_2.11;1.0->org.apache.hadoop#hadoop-yarn-client;2.2.0 [provided->runtime]
+[debug] == resolving dependencies default#softcrossdevicealgo$sources_javadoc_2.11;1.0->org.apache.hadoop#hadoop-yarn-client;2.2.0 [provided->compile]
+[debug] == resolving dependencies default#softcrossdevicealgo$sources_javadoc_2.11;1.0->org.apache.hadoop#hadoop-yarn-client;2.2.0 [provided->master]
+[debug] == resolving dependencies default#softcrossdevicealgo$sources_javadoc_2.11;1.0->org.apache.hadoop#hadoop-mapreduce-client-core;2.2.0 [provided->default(compile)]
+[info] Resolving org.apache.hadoop#hadoop-mapreduce-client-core;2.2.0 ...
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@28f81abf
+[debug] sbt-chain: module revision found in cache: org.apache.hadoop#hadoop-mapreduce-client-core;2.2.0
+[debug] 	found org.apache.hadoop#hadoop-mapreduce-client-core;2.2.0 in sbt-chain
+[debug] == resolving dependencies default#softcrossdevicealgo$sources_javadoc_2.11;1.0->org.apache.hadoop#hadoop-mapreduce-client-core;2.2.0 [provided->runtime]
+[debug] == resolving dependencies default#softcrossdevicealgo$sources_javadoc_2.11;1.0->org.apache.hadoop#hadoop-mapreduce-client-core;2.2.0 [provided->compile]
+[debug] == resolving dependencies default#softcrossdevicealgo$sources_javadoc_2.11;1.0->org.apache.hadoop#hadoop-mapreduce-client-core;2.2.0 [provided->master]
+[debug] == resolving dependencies default#softcrossdevicealgo$sources_javadoc_2.11;1.0->org.apache.hadoop#hadoop-yarn-server-common;2.2.0 [provided->default(compile)]
+[info] Resolving org.apache.hadoop#hadoop-yarn-server-common;2.2.0 ...
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@71887f69
+[debug] sbt-chain: module revision found in cache: org.apache.hadoop#hadoop-yarn-server-common;2.2.0
+[debug] 	found org.apache.hadoop#hadoop-yarn-server-common;2.2.0 in sbt-chain
+[debug] == resolving dependencies default#softcrossdevicealgo$sources_javadoc_2.11;1.0->org.apache.hadoop#hadoop-yarn-server-common;2.2.0 [provided->runtime]
+[debug] == resolving dependencies default#softcrossdevicealgo$sources_javadoc_2.11;1.0->org.apache.hadoop#hadoop-yarn-server-common;2.2.0 [provided->compile]
+[debug] == resolving dependencies default#softcrossdevicealgo$sources_javadoc_2.11;1.0->org.apache.hadoop#hadoop-yarn-server-common;2.2.0 [provided->master]
+[debug] == resolving dependencies default#softcrossdevicealgo$sources_javadoc_2.11;1.0->org.apache.hadoop#hadoop-mapreduce-client-shuffle;2.2.0 [provided->default(compile)]
+[info] Resolving org.apache.hadoop#hadoop-mapreduce-client-shuffle;2.2.0 ...
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@49e80823
+[info] Resolving org.apache.hadoop#hadoop-mapreduce-client-shuffle;2.2.0 ...
+[debug] sbt-chain-delegate: Checking cache for: sbt.ivyint.MergedDescriptors@49e80823
+[debug] 		tried /Users/zhouyong/.ivy2/local/org.apache.hadoop/hadoop-mapreduce-client-shuffle/2.2.0/ivys/ivy.xml
+[debug] 	local: no ivy file found for org.apache.hadoop#hadoop-mapreduce-client-shuffle;2.2.0
+[debug] 		tried https://repo1.maven.org/maven2/org/apache/hadoop/hadoop-mapreduce-client-shuffle/2.2.0/hadoop-mapreduce-client-shuffle-2.2.0.pom
+[debug] 	public: found md file for org.apache.hadoop#hadoop-mapreduce-client-shuffle;2.2.0
+[debug] 		=> https://repo1.maven.org/maven2/org/apache/hadoop/hadoop-mapreduce-client-shuffle/2.2.0/hadoop-mapreduce-client-shuffle-2.2.0.pom (2.2.0)
+[debug] downloading https://repo1.maven.org/maven2/org/apache/hadoop/hadoop-mapreduce-client-shuffle/2.2.0/hadoop-mapreduce-client-shuffle-2.2.0.pom ...
+[debug] 	public: downloading https://repo1.maven.org/maven2/org/apache/hadoop/hadoop-mapreduce-client-shuffle/2.2.0/hadoop-mapreduce-client-shuffle-2.2.0.pom
+[debug] 	public: downloading https://repo1.maven.org/maven2/org/apache/hadoop/hadoop-mapreduce-client-shuffle/2.2.0/hadoop-mapreduce-client-shuffle-2.2.0.pom.sha1
+[debug] sha1 OK for https://repo1.maven.org/maven2/org/apache/hadoop/hadoop-mapreduce-client-shuffle/2.2.0/hadoop-mapreduce-client-shuffle-2.2.0.pom
+[debug] 	[SUCCESSFUL ] org.apache.hadoop#hadoop-mapreduce-client-shuffle;2.2.0!hadoop-mapreduce-client-shuffle.pom(pom.original) (20236ms)
+[info] Resolving org.apache.hadoop#hadoop-mapreduce-client;2.2.0 ...
+[debug] sbt-chain: Checking cache for: dependency: org.apache.hadoop#hadoop-mapreduce-client;2.2.0 {}
+[debug] sbt-chain: module revision found in cache: org.apache.hadoop#hadoop-mapreduce-client;2.2.0
+[debug] 	found org.apache.hadoop#hadoop-mapreduce-client-shuffle;2.2.0 in public
+[debug] == resolving dependencies default#softcrossdevicealgo$sources_javadoc_2.11;1.0->org.apache.hadoop#hadoop-mapreduce-client-shuffle;2.2.0 [provided->runtime]
+[debug] == resolving dependencies default#softcrossdevicealgo$sources_javadoc_2.11;1.0->org.apache.hadoop#hadoop-mapreduce-client-shuffle;2.2.0 [provided->compile]
+[debug] == resolving dependencies default#softcrossdevicealgo$sources_javadoc_2.11;1.0->org.apache.hadoop#hadoop-mapreduce-client-shuffle;2.2.0 [provided->master]
+[debug] == resolving dependencies default#softcrossdevicealgo$sources_javadoc_2.11;1.0->org.apache.hadoop#hadoop-mapreduce-client-jobclient;2.2.0 [provided->default(compile)]
+[info] Resolving org.apache.hadoop#hadoop-mapreduce-client-jobclient;2.2.0 ...
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@6092f610
+[debug] sbt-chain: module revision found in cache: org.apache.hadoop#hadoop-mapreduce-client-jobclient;2.2.0
+[debug] 	found org.apache.hadoop#hadoop-mapreduce-client-jobclient;2.2.0 in sbt-chain
+[debug] == resolving dependencies default#softcrossdevicealgo$sources_javadoc_2.11;1.0->org.apache.hadoop#hadoop-mapreduce-client-jobclient;2.2.0 [provided->runtime]
+[debug] == resolving dependencies default#softcrossdevicealgo$sources_javadoc_2.11;1.0->org.apache.hadoop#hadoop-mapreduce-client-jobclient;2.2.0 [provided->compile]
+[debug] == resolving dependencies default#softcrossdevicealgo$sources_javadoc_2.11;1.0->org.apache.hadoop#hadoop-mapreduce-client-jobclient;2.2.0 [provided->master]
+[debug] == resolving dependencies default#softcrossdevicealgo$sources_javadoc_2.11;1.0->org.apache.hadoop#hadoop-yarn-server-nodemanager;2.2.0 [provided->default(compile)]
+[info] Resolving org.apache.hadoop#hadoop-yarn-server-nodemanager;2.2.0 ...
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@746d8e2a
+[info] Resolving org.apache.hadoop#hadoop-yarn-server-nodemanager;2.2.0 ...
+[debug] sbt-chain-delegate: Checking cache for: sbt.ivyint.MergedDescriptors@746d8e2a
+[debug] 		tried /Users/zhouyong/.ivy2/local/org.apache.hadoop/hadoop-yarn-server-nodemanager/2.2.0/ivys/ivy.xml
+[debug] 	local: no ivy file found for org.apache.hadoop#hadoop-yarn-server-nodemanager;2.2.0
+[debug] 		tried https://repo1.maven.org/maven2/org/apache/hadoop/hadoop-yarn-server-nodemanager/2.2.0/hadoop-yarn-server-nodemanager-2.2.0.pom
